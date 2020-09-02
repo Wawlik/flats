@@ -7,7 +7,7 @@
 				:data="flat" />
 		</div>
 		<div v-if="!fflats || (fflats && !fflats.length)">
-			<p class="uk-text-lead">Добавьте в избранное квартиры на <br/><router-link to="/">главной странице</router-link></p>
+			<p class="uk-text-lead">Добавьте в избранное квартиры на <br/><router-link to="/flats/">главной странице</router-link></p>
 		</div>
 	</div>
 </template>
