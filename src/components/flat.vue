@@ -29,8 +29,8 @@
 				<div class="uk-card-footer">
 					<div class="uk-grid-small uk-flex-middle" uk-grid>
 						<div class="uk-width-auto">
-							<img uk-tooltip="Агент" v-if="isAgent(data.relationships)" class="uk-border-circle" width="40" height="40" src="../public/agent.png">
-							<img uk-tooltip="Владелец" v-else class="uk-border-circle" width="40" height="40" src="../public/owner.jpg">
+							<img uk-tooltip="Агент" v-if="isAgent(data.relationships)" class="uk-border-circle" width="40" height="40" src="../../public/agent.png">
+							<img uk-tooltip="Владелец" v-else class="uk-border-circle" width="40" height="40" src="../../public/owner.jpg">
 						</div>
 						<div class="uk-width-expand uk-flex">
 							<p class="uk-card-title uk-margin-remove uk-flex flat-rls-name uk-flex-middle">
