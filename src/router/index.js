@@ -1,19 +1,20 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
+import favs from '../views/favs.vue'
 
 Vue.use(VueRouter)
 
   const routes = [
   {
-    path: '/',
+    path: '/flats/',
     name: 'Home',
     component: Home
   },
   {
-    path: '/favs',
+    path: '/flats/favs',
     name: 'favs',
-    component: () => import(/* webpackChunkName: "about" */ '../views/favs.vue')
+    component: favs
   }
 ]
 
